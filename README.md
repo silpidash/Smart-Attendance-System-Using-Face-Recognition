@@ -65,3 +65,90 @@ A **Full Stack Web Application** for modern, real-time attendance tracking using
 
 ## 🔗 Project Structure
 
+```
+Smart-Attendance-System-Face-Recognition/
+├── frontend/   # React app with TypeScript
+└── backend/    # Spring Boot + Java + Python integration
+```
+
+---
+
+## 📂 API Overview (Backend)
+
+| Endpoint                      | Method | Description                      |
+|-------------------------------|--------|----------------------------------|
+| `/api/login`                 | POST   | Login with Gmail/password        |
+| `/api/student/attendance`    | GET    | Fetch student attendance         |
+| `/api/attendance/mark`       | POST   | Mark attendance using face image |
+| `/api/admin/create-user`     | POST   | Create new student/staff user    |
+| `/api/admin/view-attendance` | GET    | View attendance logs             |
+
+> 💡 _Note: Face images are currently uploaded manually via Postman._
+
+---
+
+## ⚙️ Getting Started
+
+### 🧪 Prerequisites
+
+- Node.js
+- Java 17+
+- Python 3.8+
+- MySQL
+
+---
+
+### 📦 Frontend (React)
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
+### 🔧 Backend (Spring Boot)
+
+1. Make sure **MySQL** is running.
+2. Update DB credentials in `application.properties`.
+3. Then run:
+
+```bash
+cd backend
+./mvnw spring-boot:run
+```
+
+---
+
+### 🧠 Face Recognition (Python)
+
+> ⚠️ This runs separately as a service Python script.
+
+```bash
+cd backend/face_recognition
+python face_recognition.py
+```
+
+Make sure camera permissions are enabled.
+
+---
+
+## 🔮 Future Improvements
+
+- Automate image upload and training pipeline
+- Integrate **JWT** for session-based auth
+- Export reports in **Excel/PDF**
+- Enable live webcam access on mobile
+- Use cloud storage (S3/Cloudinary) for face data
+
+---
+
+## 🙋‍♂️ Developed By
+
+**Ritik Chandra Mishra**  
+Java Developer | Spring Boot & React Enthusiast | Problem Solver  
+[GitHub](https://github.com/iamritik9)
+
+---
+
