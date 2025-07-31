@@ -144,11 +144,6 @@ Make sure camera permissions are enabled.
 
 ---
 
-## 🙋‍♂️ Developed By
-
-**Ritik Chandra Mishra**  
-Java Developer | Spring Boot & React Enthusiast | Problem Solver  
-[GitHub](https://github.com/iamritik9)
 
 ---
 
